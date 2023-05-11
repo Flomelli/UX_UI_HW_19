@@ -1,0 +1,313 @@
+body {
+    background-color: #262829;
+    color: #5FBFE9;
+    font-family: 'Kanit';
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 200px;
+    padding: 15px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-nav {
+    padding: 15px;
+    text-align: flex-end;
+}
+
+.linkedin {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.navBar {
+    color: #5FBFE9;
+    margin-left: -30px;
+    width: 100%;
+}
+
+.heroImg {
+    height: 200px;
+    padding: 25px;
+}
+
+.content {
+    justify-content: flex-start;
+}
+
+.social {
+    height: 45px;
+    width: 45px;
+}
+
+.workText {
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+button {
+    position: relative;
+    bottom: 15px;
+}
+
+.myWork {
+    width: 100%;
+}
+
+.card.hover {
+    transform: scale(1.1);
+    box-shadow: 15px 30px 20px #444849;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bpb {
+    width: 350px;
+    height: 287px;
+    background-color: #ffa101;
+    border-radius: 16px;
+    margin-top: 85px;
+    padding: 60px;
+}
+
+h3 {
+    margin-top: -78px;
+}
+
+.workP {
+    margin-top: -18px;
+}
+
+.titleBPB {
+    color: #262829;
+}
+
+.BPBp {
+    color: #262829;
+}
+
+.imageBPB {
+    width: 670px;
+    margin-top: -109px;
+    margin-left: -175px;
+}
+
+.atc {
+    width: 350px;
+    height: 287px;
+    background-color: #ecd5e3;
+    border-radius: 16px;
+    margin-top: 85px;
+    padding: 60px;
+}
+
+.imageAtC {
+    width: 570px;
+    margin-top: -73px;
+    margin-left: -121px;
+    margin-bottom: 48px;
+}
+
+.titleAtC {
+    color: #262829;
+}
+
+.AtCp {
+    color: #262829;
+}
+
+.m8 {
+    width: 350px;
+    height: 287px;
+    background-color: #6A00BD;
+    border-radius: 16px;
+    margin-top: 85px;
+    padding: 60px;
+}
+
+.imageM8 {
+    width: 570px;
+    margin-top: -73px;
+    margin-left: -121px;
+    margin-bottom: 48px;
+}
+
+.titleM8 {
+    color: #ffffff;
+}
+
+.M8p {
+    color: #ffffff;
+}
+
+.fcc {
+    width: 350px;
+    height: 287px;
+    background-color: #F7BA36;
+    border-radius: 16px;
+    margin-top: 85px;
+    padding: 60px;
+}
+
+.imageFCC {
+    width: 670px;
+    margin-top: -153px;
+    margin-left: -175px;
+    margin-bottom: 48px;
+}
+
+.titleFCC {
+    color: #1B3659;
+    margin-top: -51px;
+    margin-left: -14px;
+}
+
+.FCCp {
+    color: #1B3659;
+    margin-left: -14px;
+}
+
+.buttonFCC {
+    margin-left: -14px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skillsText {
+    margin-top: 129px;
+    margin-bottom: 58px;
+}
+
+.figma {
+    height: 116px;
+    width: 47px;
+}
+
+.miro {
+    height: 116px;
+    width: 72px;
+}
+
+.ai {
+    height: 116px;
+    width: 73px;
+}
+
+.zoom {
+    height: 116px;
+    width: 72px;
+}
+
+.drive {
+    height: 116px;
+    width: 80px;
+}
+
+.office {
+    height: 118px;
+    width: 201px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 34% 32% 34%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "figma miro ai" "zoom drive office";
+    height: 690px;
+    padding: 20px;
+}
+
+.footer {
+    align-content: center;
+    margin: auto;
+    background-color: #444849;
+    color: #CCEFFF;
+}
+
+.footerGrid {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-areas: "footerLeft footerRight footerSocials"
+}
+
+.linksGrid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "Portfolio" "Resume" "About me" "Contact";
+}
+
+.footerLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.footerLeft {
+    border-right: 4px solid #CCEFFF;
+    padding-right: 204px;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateX(-50%);
+    transition: all .75s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bpb {
+        width: 75%;
+    }
+    .atc {
+        width: 75%;
+    }
+    .m8 {
+        width: 75%;
+    }
+    .fcc {
+        width: 75%;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+        grid-template-areas: "figma" "miro" "ai" "zoom" "drive" "office";
+    }
+}
