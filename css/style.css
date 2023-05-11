@@ -74,9 +74,10 @@ button {
     width: 100%;
 }
 
-.card.hover {
+.card.hover,
+.bpb {
     transform: scale(1.1);
-    box-shadow: 15px 30px 20px #444849;
+    box-shadow: 15px 15px 20px #5FBFE9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -87,6 +88,7 @@ button {
     border-radius: 16px;
     margin-top: 85px;
     padding: 60px;
+    box-shadow: 20px 20px 20px #000;
 }
 
 h3 {
@@ -118,6 +120,7 @@ h3 {
     border-radius: 16px;
     margin-top: 85px;
     padding: 60px;
+    box-shadow: 20px 20px 20px #000;
 }
 
 .imageAtC {
@@ -142,6 +145,7 @@ h3 {
     border-radius: 16px;
     margin-top: 85px;
     padding: 60px;
+    box-shadow: 20px 20px 20px #000;
 }
 
 .imageM8 {
@@ -166,6 +170,7 @@ h3 {
     border-radius: 16px;
     margin-top: 85px;
     padding: 60px;
+    box-shadow: 20px 20px 20px #000;
 }
 
 .imageFCC {
